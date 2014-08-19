@@ -1,0 +1,21 @@
+## 
+## PowerRuby 
+development:
+  adapter: ibm_db
+  username: A2222
+  password: A2222
+  database: '*LOCAL'
+  schema: A2222_D
+ 
+test:
+  adapter: ibm_db
+  username: A2222
+  password: A2222
+  database: '*LOCAL'
+  schema: A2222_T
+production:
+  adapter: ibm_db
+  username: A2222
+  password: A2222
+  database: '*LOCAL'
+  schema: A2222_P
